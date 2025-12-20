@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hrishikesh P. Menon | Technical Writing Portfolio</title>
+  <style>
+    /* Minimalist black & white theme */
+    :root {
+      --bg: #ffffff;
+      --text: #000000;
+      --muted: #555555;
+      --border: #e5e5e5;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      z-index: 10;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      padding: 16px 24px;
+      margin: 0 auto;
+      max-width: 1100px;
+    }
+
+    header {
+      padding: 96px 24px 72px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      max-width: 720px;
+      font-size: 1.05rem;
+      color: var(--muted);
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 72px 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 32px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      font-weight: 500;
+      margin-top: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 32px;
+    }
+
+    .card {
+      padding: 0;
+    }
+
+    .card p,
+    .card li {
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    .tag {
+      display: inline-block;
+      margin: 4px 10px 0 0;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    footer {
+      padding: 56px 24px;
+      text-align: center;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header id="about">
+  <h1>Hrishikesh P. Menon</h1>
+  <p>
+    Senior Technical Writer with 4+ years of experience building API documentation,
+    developer portals, UX microcopy, and knowledge bases for SaaS and cybersecurity products.
+    I translate complex systems into clear, usable documentation.
+  </p>
+</header>
+
+<section id="skills">
+  <h2>Core Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Documentation</h3>
+      <span class="tag">API Docs</span>
+      <span class="tag">Developer Guides</span>
+      <span class="tag">Knowledge Base</span>
+      <span class="tag">UX Writing</span>
+    </div>
+    <div class="card">
+      <h3>Tools</h3>
+      <span class="tag">RoboHelp</span>
+      <span class="tag">FrameMaker</span>
+      <span class="tag">Git</span>
+      <span class="tag">HTML/CSS</span>
+      <span class="tag">Figma</span>
+    </div>
+    <div class="card">
+      <h3>Practices</h3>
+      <span class="tag">Content Strategy</span>
+      <span class="tag">Information Architecture</span>
+      <span class="tag">SEO for Docs</span>
+      <span class="tag">AI-assisted Authoring</span>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Professional Experience</h2>
+
+  <div class="card">
+    <h3>Qualys Inc. — Senior Information Developer</h3>
+    <p><em>Aug 2021 – Present | Pune, India</em></p>
+    <ul>
+      <li>Owned end-to-end API documentation across seven product lines; collaborated closely with engineering and QA to ensure technical accuracy and developer usability.</li>
+      <li>Led AI-assisted documentation initiatives to accelerate content delivery, standardize style, and reduce review cycles.</li>
+      <li>Authored UX microcopy and UI text across multiple projects, improving user flows and reducing support queries.</li>
+      <li>Designed and rolled out an organization-wide image style guide, improving visual consistency and onboarding speed.</li>
+      <li>Built HTML and JavaScript automation tools to streamline documentation reviews and updates, significantly reducing manual effort.</li>
+      <li>Implemented SEO analysis and automated link-checking processes that reduced SEO-related documentation issues by approximately 80%.</li>
+      <li>Created a centralized Connectors Hub to showcase integrations and improve content discoverability for customers.</li>
+      <li>Mentored new writers on authoring tools, information architecture, and editorial best practices.</li>
+    </ul>
+  </div>
+
+  <br />
+
+  <div class="card">
+    <h3>Kandor Soft Labs — Technical Writer</h3>
+    <p><em>Mar 2020 – Aug 2021 | Bangalore, India</em></p>
+    <ul>
+      <li>Produced feature documentation, tutorials, and knowledge-base articles for multiple SaaS products.</li>
+      <li>Led an AWS-focused pricing calculator project, owning scoping, documentation, and internal product content.</li>
+      <li>Developed an SEO-driven content strategy that increased platform sign-ups and engagement by approximately 40%.</li>
+      <li>Collaborated with developers and QA engineers to validate API accuracy and end-to-end UI-flow documentation.</li>
+      <li>Wrote scripts and supporting documentation for product explainer videos to improve user adoption and retention.</li>
+    </ul>
+  </div>
+
+  <br />
+
+  <div class="card">
+    <h3>Nyx Wolves — Content Writer</h3>
+    <p><em>Aug 2018 – Feb 2019 | Chennai, India</em></p>
+    <ul>
+      <li>Authored technical blogs, SOPs, tutorials, FAQs, PR content, and onboarding documentation.</li>
+      <li>Delivered 50+ client-facing deliverables under tight deadlines while maintaining quality and consistency.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education & Certifications</h2>
+  <div class="card">
+    <ul>
+      <li><strong>B.Sc. in Computer Science</strong> — Vellore Institute of Technology (Jul 2015 – Jun 2018), GPA: 8.2</li>
+      <li><strong>Certification in Ethical Hacking</strong> — EC-Council</li>
+      <li><strong>PGP Diploma in AI & Machine Learning</strong> — Great Lakes Institute of Management</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>EC2 Instance Price Calculator</h3>
+      <p>AWS cost estimation tool with complete user and internal documentation.</p>
+    </div>
+    <div class="card">
+      <h3>Connectors Hub</h3>
+      <p>Centralized landing page improving discoverability of integrations.</p>
+    </div>
+    <div class="card">
+      <h3>Image & Token Style Guides</h3>
+      <p>Standardized visual and naming conventions across documentation.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Pune, India</p>
+    <p>Email: <a href="mailto:hrishikeshpmenon@gmail.com">hrishikeshpmenon@gmail.com</a></p>
+    <p>Open to remote or relocation opportunities.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Hrishikesh P. Menon — Technical Writing Portfolio</p>
+</footer>
+
+</body>
+</html>
